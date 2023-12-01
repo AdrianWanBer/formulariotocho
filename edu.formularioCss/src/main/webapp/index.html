@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario en Css</title>
+<link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+	<h1>HOJA DE INSCRIPCION</h1>
+	<h1>EN LOS CICLLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+<form>
+<fieldset class="primero">
+	<legend class="titulo">Datos personales</legend>
+	<div class="bloq1">
+	<div class="datospersonales-nombre">
+		<label>Nombre</label>
+		<br>
+		<input type="text" class="formu" required>
+	</div>
+	<div class="datospersonales-apellido">
+		<label>Apellido</label>
+		<br>
+		<input type="text" class="formu" required>
+		</div>
+	<div class="datospersonales-dni">
+		<label>Dni</label>
+		<br>
+		<input type="text" class="formu" required>
+	</div>
+	</div>
+	<div class="bloq2">
+	<div class="datospersonales-localidad">
+		<label>Localidad de nacimiento</label>
+		<br>
+		<input type="text" class="formu" required>
+	</div>
+
+
+	<div class="datospersonales-provincia">
+		<label>Provincia</label>
+		<select>
+			<option>Sevilla</option>
+			<option>Madrid</option>
+		</select>
+	</div>
+	<div class="datospersonales-fechadenacimiento">
+		<label>Fecha de nacimiento</label>
+		<br>
+		<input type="date" class="formu" required>
+	</div>
+	</div>
+	<div class="bloq3">
+	<div class="datospersonales-direccion">
+		<label>Direccion</label>
+		<br>
+		<input type="text" class="formu" required>
+	</div>
+	<div class="datospersonales-codigopostal">
+		<label>Codigo postal</label>
+		<br>
+		<input type="text" class="formu"required>
+	</div>
+	</div>
+</fieldset>
+<br>
+<fieldset class="segundo">
+	<legend class="titulo">Forma de acceso</legend>
+		<pre>
+	<input type="radio">Directo
+		<input type="radio" required>Bachillerato Log Modalidad
+		<input type="radio" required>Experimental
+		<input type="radio" required>COU opcion
+		<input type="radio" required>FP2
+		<input type="radio" required>Otro (especifique)
+	<input type="radio">Prueba libre
+		</pre>
+</fieldset>
+<fieldset class="tercero">
+	<legend class="titulo">Documentos Adjuntados</legend>
+	<div class="arriba">
+		<div>
+			<label>Foto copia dni</label>
+			<input type="checkbox" required>
+		</div>
+		<div>
+			<label>Certificado academico</label>
+			<input type="checkbox" required>
+		</div>
+	</div>
+	<div class="abajo">
+		<label>Otros documentos (especifique)</label>
+		<input type="checkbox" required>
+	</div>
+</fieldset>
+<button type="submit">Enviar formulario</button>
+</form>
+
+</body>
+</html>

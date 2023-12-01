@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+body{
+	font-family: Helvetica;	
+}
+
+h1{
+	text-align: center;
+}
+.titulo{
+	border: black solid 1px;
+	border-radius: 5px;
+	background-color: white;
+}
+.formu:hover{
+	
+		background-color: yellow;
+}
+.formu:focus{
+	background-color: red;
+}
+
+.bloq1{
+	display: flex;
+}
+.bloq2{
+	display: flex;
+}
+.bloq3{
+	display: flex;
+}
+.datospersonales-direccion{
+	
+}
+.arriba{
+	display:	flex;
+}
+.primero{
+	background-color: grey;
+}
+.segundo{
+	background-color: sandybrown;
+}
+.tercero{
+	background-color: darkred;
+}
